@@ -5,7 +5,7 @@ import { Data } from "../types/types";
 
 import TodoList from "../TodoList/TodoList";
 import Filter from "../Filter/Filter";
-import TaskForm from "../TaskForm/taskForm";
+import TaskForm from "../TaskForm/TaskForm";
 
 function App() {
   const [todos, setTodos] = useState<Data[]>([]);
