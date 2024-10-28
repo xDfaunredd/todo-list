@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { fetchTodoItems } from "../fetchTodoItems/fetchTodoItems";
 import { Data } from "../types/types";
-import TaskForm from "../TaskForm/taskForm";
+
 import TodoList from "../TodoList/TodoList";
 import Filter from "../Filter/Filter";
+import TaskForm from "../TaskForm/taskForm";
 
 function App() {
   const [todos, setTodos] = useState<Data[]>([]);
