@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  outline: 0;
+
+  &:hover,
+  &:focus {
+    border-color: blueviolet;
+  }
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: blueviolet;
+  transition: 250ms;
+  &:hover {
+    background-color: rgb(78, 16, 136);
+  }
+}
